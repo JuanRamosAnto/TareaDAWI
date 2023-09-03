@@ -33,7 +33,7 @@ public class ConcursoController {
 		}else {
 			map.put("MENSAJE", "Registro exitoso");
 		}
-		return map;
+		return map; 
 	}
 	
 	
