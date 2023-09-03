@@ -29,7 +29,7 @@ public class ConcursoController {
 		HashMap<String, String> map = new HashMap<String, String>();
 		Concurso objSalida = service.insertaConcurso(obj);
 		if (objSalida == null) {
-			map.put("MENSAJE", "Error en el registro");
+			map.put("MENSAJE", "Error en el registro"); 
 		}else {
 			map.put("MENSAJE", "Registro exitoso");
 		}
