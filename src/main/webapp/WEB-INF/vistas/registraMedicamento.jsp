@@ -110,6 +110,7 @@ $(document).ready(function() {
             valid: 'glyphicon glyphicon-ok',
             invalid: 'glyphicon glyphicon-remove',
             validating: 'glyphicon glyphicon-refresh' 
+            
         },
         fields: {
         		nombre:{
